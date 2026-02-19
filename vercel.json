@@ -1,0 +1,36 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/test/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/login",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/signup",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/questions/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/practice/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard/:path*",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
